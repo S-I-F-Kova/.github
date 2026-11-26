@@ -22,10 +22,10 @@ L'organisation s'articule autour de **4 tableaux GitHub Projects** pilotant le c
 
 | Projet | Rôle & Périmètre |
 | :--- | :--- |
-| **[Kova 1.0.0 - Management](https://github.com/orgs/S-I-F-Kova/projects/1)** | **Hub Produit & Backlog :** Rédaction des User Stories (`[US]`), spécifications fonctionnelles, contrats d'interface partagés et triage avant dispatch. |
-| **[Kova 1.0.0 - Infrastructure](https://github.com/orgs/S-I-F-Kova/projects/2)** | **Back-end & Cloud :** Microservices API, base de données PostgreSQL, authentification Firebase, moteur d'apprentissage contextuel, CDN et OTA. |
-| **[Kova 1.0.0 - Device](https://github.com/orgs/S-I-F-Kova/projects/3)** | **Embarqué & Matériel :** Firmware commun ESP32-C6 (`Device Core`), réseau BLE Mesh / Proxy GATT, passerelle Wi-Fi, produits spécifiques (`Lamp`) et PCB. |
-| **[Kova 1.0.0 - Mobile](https://github.com/orgs/S-I-F-Kova/projects/4)** | **Applications Clients :** Applications natives iOS et Android, onboarding QR/BLE, questionnaire initial, gestion des pièces et contrôle manuel. |
+| **[Kova 1.0.0 - Management](https://github.com/orgs/S-I-F-Kova/projects/2)** | **Hub Produit & Backlog :** Rédaction des User Stories (`[US]`), spécifications fonctionnelles, contrats d'interface partagés et triage avant dispatch. |
+| **[Kova 1.0.0 - Infrastructure](https://github.com/orgs/S-I-F-Kova/projects/1)** | **Back-end & Cloud :** Microservices API, base de données PostgreSQL, authentification Firebase, moteur d'apprentissage contextuel, CDN et OTA. |
+| **[Kova 1.0.0 - Device](https://github.com/orgs/S-I-F-Kova/projects/6)** | **Embarqué & Matériel :** Firmware commun ESP32-C6 (`Device Core`), réseau BLE Mesh / Proxy GATT, passerelle Wi-Fi, produits spécifiques (`Lamp`) et PCB. |
+| **[Kova 1.0.0 - Mobile](https://github.com/orgs/S-I-F-Kova/projects/7)** | **Applications Clients :** Applications natives iOS et Android, onboarding QR/BLE, questionnaire initial, gestion des pièces et contrôle manuel. |
 
 ---
 
@@ -51,7 +51,7 @@ L'organisation s'articule autour de **4 tableaux GitHub Projects** pilotant le c
 
 | Dépôt | Description | Releases |
 | :--- | :--- | :--- |
-| **[`Device`](https://github.com/S-I-F-Kova/Device)** *(Main)* | Socle firmware commun (`Device Core`) : stack BLE Mesh, Proxy GATT, élection de passerelle Wi-Fi, stockage NVS, bus d'événements et client OTA. | [Releases](https://github.com/S-I-F-Kova/Device/releases) |
+| **[`Device`](https://github.com/S-I-F-Kova/kova-device-core)** *(Main)* | Socle firmware commun (`Device Core`) : stack BLE Mesh, Proxy GATT, élection de passerelle Wi-Fi, stockage NVS, bus d'événements et client OTA. | [Releases](https://github.com/S-I-F-Kova/Device/releases) |
 | **[`Lamp`](https://github.com/S-I-F-Kova/Lamp)** | Implémentation produit de la lampe adaptative Kova : moteur de rendu des 12 thèmes LED, reconnaissance des gestes tactiles et capteurs ambiants. | [Releases](https://github.com/S-I-F-Kova/Lamp/releases) |
 
 </details>
@@ -62,7 +62,7 @@ L'organisation s'articule autour de **4 tableaux GitHub Projects** pilotant le c
 
 | Dépôt | Description | Releases |
 | :--- | :--- | :--- |
-| **[`Mobile-main`](https://github.com/S-I-F-Kova/Mobile-main)** *(Main)* | Dépôt central de coordination mobile, architecture partagée et suivi des fonctionnalités transversales iOS / Android. | [Releases](https://github.com/S-I-F-Kova/Mobile-main/releases) |
+| **[`Mobile-main`](https://github.com/S-I-F-Kova/kova-mobile-main)** *(Main)* | Dépôt central de coordination mobile, architecture partagée et suivi des fonctionnalités transversales iOS / Android. | [Releases](https://github.com/S-I-F-Kova/Mobile-main/releases) |
 | **[`kova-mobile-ios`](https://github.com/S-I-F-Kova/kova-mobile-ios)** | Application native iOS (Swift / SwiftUI), intégration CoreBluetooth (BLE Mesh Proxy), CoreLocation et Sign in with Apple. | [Releases](https://github.com/S-I-F-Kova/kova-mobile-ios/releases) |
 | **[`kova-mobile-android`](https://github.com/S-I-F-Kova/kova-mobile-android)** | Application native Android (Kotlin), gestion BLE Mesh, permissions de localisation et authentification multi-providers. | [Releases](https://github.com/S-I-F-Kova/kova-mobile-android/releases) |
 
