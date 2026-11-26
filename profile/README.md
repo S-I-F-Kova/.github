@@ -24,8 +24,8 @@ L'organisation s'articule autour de **4 tableaux GitHub Projects** pilotant le c
 | :--- | :--- |
 | **[Kova 1.0.0 - Management](https://github.com/orgs/S-I-F-Kova/projects/2)** | **Hub Produit & Backlog :** Rédaction des User Stories (`[US]`), spécifications fonctionnelles, contrats d'interface partagés et triage avant dispatch. |
 | **[Kova 1.0.0 - Infrastructure](https://github.com/orgs/S-I-F-Kova/projects/1)** | **Back-end & Cloud :** Microservices API, base de données PostgreSQL, authentification Firebase, moteur d'apprentissage contextuel, CDN et OTA. |
-| **[Kova 1.0.0 - Device](https://github.com/orgs/S-I-F-Kova/projects/6)** | **Embarqué & Matériel :** Firmware commun ESP32-C6 (`Device Core`), réseau BLE Mesh / Proxy GATT, passerelle Wi-Fi, produits spécifiques (`Lamp`) et PCB. |
-| **[Kova 1.0.0 - Mobile](https://github.com/orgs/S-I-F-Kova/projects/7)** | **Applications Clients :** Applications natives iOS et Android, onboarding QR/BLE, questionnaire initial, gestion des pièces et contrôle manuel. |
+| **[Kova 1.0.0 - Device](https://github.com/orgs/S-I-F-Kova/projects/7)** | **Embarqué & Matériel :** Firmware commun ESP32-C6 (`Device Core`), réseau BLE Mesh / Proxy GATT, passerelle Wi-Fi, produits spécifiques (`Lamp`) et PCB. |
+| **[Kova 1.0.0 - Mobile](https://github.com/orgs/S-I-F-Kova/projects/6)** | **Applications Clients :** Applications natives iOS et Android, onboarding QR/BLE, questionnaire initial, gestion des pièces et contrôle manuel. |
 
 ---
 
