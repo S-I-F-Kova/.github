@@ -38,31 +38,31 @@ L'organisation s'articule autour de **4 tableaux GitHub Projects** pilotant le c
 | Dépôt | Description | Releases |
 | :--- | :--- | :--- |
 | **[`infrastructure`](https://github.com/S-I-F-Kova/infrastructure)** *(Main)* | Point d'entrée principal de l'infrastructure, orchestration Docker/Nginx Gateway et suivi des tâches techniques globales. | [Releases](https://github.com/S-I-F-Kova/infrastructure/releases) |
-| **[`authenticationMS`](https://github.com/S-I-F-Kova/authentication-MS)** | Microservice de gestion des sessions, validation des jetons Firebase Admin SDK et injection des *Custom Claims*. | [Releases](https://github.com/S-I-F-Kova/authenticationMS/releases) |
-| **[`ProfileMS`](https://github.com/S-I-F-Kova/Profile-MS)** | Microservice de gestion des profils utilisateurs, préférences initiales (archétypes) et localisation géographique. | [Releases](https://github.com/S-I-F-Kova/ProfileMS/releases) |
+| **[`authentication-MS`](https://github.com/S-I-F-Kova/authentication-MS)** | Microservice de gestion des sessions, validation des jetons Firebase Admin SDK et injection des *Custom Claims*. | [Releases](https://github.com/S-I-F-Kova/authenticationMS/releases) |
+| **[`Profile-MS`](https://github.com/S-I-F-Kova/Profile-MS)** | Microservice de gestion des profils utilisateurs, préférences initiales (archétypes) et localisation géographique. | [Releases](https://github.com/S-I-F-Kova/ProfileMS/releases) |
 | **[`DB`](https://github.com/S-I-F-Kova/DB)** | Configuration PostgreSQL, isolation des schémas (`auth`, `user_domain`) et migrations Drizzle ORM. | [Releases](https://github.com/S-I-F-Kova/DB/releases) |
 | **[`Middleware`](https://github.com/S-I-F-Kova/Middleware)** | Package partagé de validation JWT, contrôle d'accès, gestion d'erreurs normalisées et validation Zod. | [Releases](https://github.com/S-I-F-Kova/Middleware/releases) |
 
 </details>
 
-<details>
+<details open>
 <summary><strong>💡 Device</strong> — <em>Noyau firmware embarqué ESP32-C6, réseau BLE Mesh, capteurs et déclinaisons produits</em></summary>
 <br>
 
 | Dépôt | Description | Releases |
 | :--- | :--- | :--- |
-| **[`Device`](https://github.com/S-I-F-Kova/kova-device-core)** *(Main)* | Socle firmware commun (`Device Core`) : stack BLE Mesh, Proxy GATT, élection de passerelle Wi-Fi, stockage NVS, bus d'événements et client OTA. | [Releases](https://github.com/S-I-F-Kova/Device/releases) |
+| **[`Device-core`](https://github.com/S-I-F-Kova/kova-device-core)** *(Main)* | Socle firmware commun (`Device Core`) : stack BLE Mesh, Proxy GATT, élection de passerelle Wi-Fi, stockage NVS, bus d'événements et client OTA. | [Releases](https://github.com/S-I-F-Kova/Device/releases) |
 | **[`Lamp`](https://github.com/S-I-F-Kova/Lamp)** | Implémentation produit de la lampe adaptative Kova : moteur de rendu des 12 thèmes LED, reconnaissance des gestes tactiles et capteurs ambiants. | [Releases](https://github.com/S-I-F-Kova/Lamp/releases) |
 
 </details>
 
-<details>
+<details open>
 <summary><strong>📱 Mobile</strong> — <em>Applications mobiles iOS et Android pour l'appairage, la personnalisation et le contrôle</em></summary>
 <br>
 
 | Dépôt | Description | Releases |
 | :--- | :--- | :--- |
-| **[`Mobile-main`](https://github.com/S-I-F-Kova/kova-mobile-main)** *(Main)* | Dépôt central de coordination mobile, architecture partagée et suivi des fonctionnalités transversales iOS / Android. | [Releases](https://github.com/S-I-F-Kova/Mobile-main/releases) |
+| **[`Mobile-shared`](https://github.com/S-I-F-Kova/kova-mobile-shared)** *(Main)* | Dépôt central de coordination mobile, architecture partagée et suivi des fonctionnalités transversales iOS / Android. | [Releases](https://github.com/S-I-F-Kova/Mobile-main/releases) |
 | **[`kova-mobile-ios`](https://github.com/S-I-F-Kova/kova-mobile-ios)** | Application native iOS (Swift / SwiftUI), intégration CoreBluetooth (BLE Mesh Proxy), CoreLocation et Sign in with Apple. | [Releases](https://github.com/S-I-F-Kova/kova-mobile-ios/releases) |
 | **[`kova-mobile-android`](https://github.com/S-I-F-Kova/kova-mobile-android)** | Application native Android (Kotlin), gestion BLE Mesh, permissions de localisation et authentification multi-providers. | [Releases](https://github.com/S-I-F-Kova/kova-mobile-android/releases) |
 
