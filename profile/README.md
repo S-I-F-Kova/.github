@@ -38,8 +38,8 @@ L'organisation s'articule autour de **4 tableaux GitHub Projects** pilotant le c
 | Dépôt | Description | Releases |
 | :--- | :--- | :--- |
 | **[`infrastructure`](https://github.com/S-I-F-Kova/infrastructure)** *(Main)* | Point d'entrée principal de l'infrastructure, orchestration Docker/Nginx Gateway et suivi des tâches techniques globales. | [Releases](https://github.com/S-I-F-Kova/infrastructure/releases) |
-| **[`authenticationMS`](https://github.com/S-I-F-Kova/authenticationMS)** | Microservice de gestion des sessions, validation des jetons Firebase Admin SDK et injection des *Custom Claims*. | [Releases](https://github.com/S-I-F-Kova/authenticationMS/releases) |
-| **[`ProfileMS`](https://github.com/S-I-F-Kova/ProfileMS)** | Microservice de gestion des profils utilisateurs, préférences initiales (archétypes) et localisation géographique. | [Releases](https://github.com/S-I-F-Kova/ProfileMS/releases) |
+| **[`authenticationMS`](https://github.com/S-I-F-Kova/authentication-MS)** | Microservice de gestion des sessions, validation des jetons Firebase Admin SDK et injection des *Custom Claims*. | [Releases](https://github.com/S-I-F-Kova/authenticationMS/releases) |
+| **[`ProfileMS`](https://github.com/S-I-F-Kova/Profile-MS)** | Microservice de gestion des profils utilisateurs, préférences initiales (archétypes) et localisation géographique. | [Releases](https://github.com/S-I-F-Kova/ProfileMS/releases) |
 | **[`DB`](https://github.com/S-I-F-Kova/DB)** | Configuration PostgreSQL, isolation des schémas (`auth`, `user_domain`) et migrations Drizzle ORM. | [Releases](https://github.com/S-I-F-Kova/DB/releases) |
 | **[`Middleware`](https://github.com/S-I-F-Kova/Middleware)** | Package partagé de validation JWT, contrôle d'accès, gestion d'erreurs normalisées et validation Zod. | [Releases](https://github.com/S-I-F-Kova/Middleware/releases) |
 
