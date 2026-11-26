@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🎯 Créer une User Story transversale (Kova Management)
+    url: https://github.com/S-I-F-Kova/kova-management/issues/new/choose
+    about: Toutes les nouvelles fonctionnalités produit doivent d'abord être rédigées sous forme de User Story dans kova-management.
